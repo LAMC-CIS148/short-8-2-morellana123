@@ -46,7 +46,7 @@ main {
 
 /* the styles for the section */
 section {
-	width: 575px;
+	width: 575%;
 	float: right;
 	padding: 0 20px 20px 20px;
 }
@@ -76,7 +76,7 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 215%;
 	float: right;
 	padding: 0 0 20px 20px;
 }
@@ -100,7 +100,7 @@ aside img {
 	margin-left: 0;
 	margin-bottom: 1.5em; }
 #nav_list ul li { 
-	width: 200px;
+	width: 200%;
 	margin-bottom: .5em;
 	border: 2px double black;
 	border-radius: 10px;
