@@ -46,8 +46,7 @@ main {
 
 /* the styles for the section */
 section {
-	width: 575%;
-	float: right;
+	width: 750px;
 	padding: 0 20px 20px 20px;
 }
 section h1 {
@@ -76,8 +75,7 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215%;
-	float: right;
+	width: 215px;
 	padding: 0 0 20px 20px;
 }
 aside h2 {
@@ -100,12 +98,7 @@ aside img {
 	margin-left: 0;
 	margin-bottom: 1.5em; }
 #nav_list ul li { 
-	width: 200%;
 	margin-bottom: .5em;
-	border: 2px double black;
-	border-radius: 10px;
-	box-shadow: 3px 3px 0 0 #800000;
-	background-image: url("../images/right.jpg");
 	background-repeat: no-repeat;
 	background-position: 95% center;
 }
@@ -119,7 +112,14 @@ aside img {
 #nav_list ul li a.current {
 	color: #800000;
 }
-
+@media screen and (max-width:850px)
+{ body {fornt-size:90%;
+       }
+}
+@media screen and (max-width: 650px)
+{ body { flex-direction:colum;
+       }
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
